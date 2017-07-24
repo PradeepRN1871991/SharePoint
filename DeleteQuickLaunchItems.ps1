@@ -2,6 +2,7 @@
 
 function connectto0365site()
 {
+
 $username=""
 $password=""
 $securepass=ConvertTo-SecureString -String $password -AsPlainText -Force
