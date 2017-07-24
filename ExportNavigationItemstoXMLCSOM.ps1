@@ -70,7 +70,7 @@ Write-Host "Content is there" $xmlcontent.Attributes["Title"].Value
 }
 $clientcontext=connectto0365site
 $navigationdetails=Navigation
-
+  
 
 
 
