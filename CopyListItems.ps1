@@ -17,6 +17,7 @@ $destinationclientcontext=$null
 
 function connecttosourcesite()
 {
+
 $sourceclientcontext=New-Object microsoft.sharepoint.client.clientcontext("")
 $sourceclientcontext.Credentials=New-Object system.net.networkcredential($username,$securepwd)
 return $sourceclientcontext
