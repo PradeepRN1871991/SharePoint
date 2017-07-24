@@ -7,7 +7,6 @@ This script is for importing the left navigation settings from xml file to the o
 <# Provide the xml file input path #>
 
 
-
 [xml]$xmlcontentvalue=Get-Content -Path ""
 
 function connectto0365site()
