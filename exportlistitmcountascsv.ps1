@@ -83,6 +83,6 @@ write-host "Could not find web" -foregroundcolor red  $_.Exception
  
 }
 
- 
+
 connectToO365
 
